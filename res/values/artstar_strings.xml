@@ -53,6 +53,7 @@
     <string name="lockscreen_battery_info_summary">Display negociated charger max current and voltage and battery temperature on lockscreen while charging</string>
 
 	<!-- Slim recents -->
+    <string name="recents_slim">Slim</string>
     <string name="slim_recents_title">Slim Recents</string>
     <string name="slim_recents_summary">Enable to use an alternative recents screen</string>
     <string name="slim_recents_fragment_title">Slim recents settings</string>

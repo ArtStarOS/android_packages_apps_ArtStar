@@ -30,17 +30,19 @@
         android:key="slim_recents_category"
         android:title="@string/slim_recents_title">
 
+<<<<<<< HEAD:res/xml/artstar_settings_misc.xml
         <com.artstar.settings.preferences.SystemSettingSwitchPreference
             android:key="use_slim_recents"
             android:title="@string/slim_recents_title"
             android:summary="@string/slim_recents_summary"
             android:defaultValue="false" />
 
+=======
+>>>>>>> 2b3b8851... Adapt slim recents to our recents style:res/xml/lotus_settings_recents.xml
         <PreferenceScreen
             android:key="slim_recents_fragment"
             android:fragment="com.artstar.settings.fragments.SlimRecents"
             android:title="@string/slim_recents_fragment_title"
-            android:summary="@string/slim_recents_fragment_summary"
-            android:dependency="use_slim_recents" />
+            android:summary="@string/slim_recents_fragment_summary" />
     </PreferenceCategory>
 </PreferenceScreen>
