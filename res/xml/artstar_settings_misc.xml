@@ -17,5 +17,30 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
 	android:title="@string/misc_title"
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+		
+	<ListPreference
+        android:key="recents_layout_style"
+        android:title="@string/recents_component_type_title"
+        android:dialogTitle="@string/recents_component_type_title"
+        android:entries="@array/recents_type_title_entries"
+        android:defaultValue="0"
+        android:entryValues="@array/recents_type_title_values"/>
+		
+	<PreferenceCategory
+        android:key="slim_recents_category"
+        android:title="@string/slim_recents_title">
 
+        <com.artstar.settings.preferences.SystemSettingSwitchPreference
+            android:key="use_slim_recents"
+            android:title="@string/slim_recents_title"
+            android:summary="@string/slim_recents_summary"
+            android:defaultValue="false" />
+
+        <PreferenceScreen
+            android:key="slim_recents_fragment"
+            android:fragment="com.artstar.settings.fragments.SlimRecents"
+            android:title="@string/slim_recents_fragment_title"
+            android:summary="@string/slim_recents_fragment_summary"
+            android:dependency="use_slim_recents" />
+    </PreferenceCategory>
 </PreferenceScreen>
