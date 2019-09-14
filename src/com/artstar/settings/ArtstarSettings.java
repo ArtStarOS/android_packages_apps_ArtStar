@@ -26,7 +26,7 @@ import android.os.Bundle;
 import android.view.Surface;
 import android.preference.Preference;
 import com.android.settings.R;
-import com.cherish.settings.preferences.Utils;
+import com.artstar.settings.preferences.Utils;
 
 import com.android.settings.SettingsPreferenceFragment;
 
