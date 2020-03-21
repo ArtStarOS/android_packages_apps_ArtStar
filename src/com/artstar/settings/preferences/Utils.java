@@ -39,7 +39,7 @@ import android.view.Surface;
 import android.view.WindowManager;
 
 public final class Utils {
-    private static final String TAG = "NitrogenSettingsUtils";
+    private static final String TAG = "ArtstarSettingsUtils";
 
     // Device types
     private static final int DEVICE_PHONE = 0;

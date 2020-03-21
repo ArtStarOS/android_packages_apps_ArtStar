@@ -48,7 +48,7 @@ public class ArtstarSettings extends SettingsPreferenceFragment {
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.ARTSTAR_SETTINGS;
+        return MetricsProto.MetricsEvent.ARTSTAR;
     }
 
     public static void lockCurrentOrientation(Activity activity) {
